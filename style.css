@@ -131,35 +131,36 @@ margin-top: 20px;
 .form-page{
     width: 1320px;
     height: 480px;
-    border: 1px solid green;
+    /* border: 1px solid green; */
    
     margin: 0 auto;
     margin-top: 60px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.3),rgba(255, 0, 0, 0) 100%);
 
 }
 .form-design{
     width: 550px;
     height: 272px;
-    border: 1px solid black;
- 
-    
+    /* border: 1px solid black; */
      margin: 0 auto; 
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-  line-height: 45px;
+  /* line-height: px; */
 
+  
 }
 .form-design h4{
     font-size: 25px;
     font-weight: 600;
-   
+    margin-left:20px;
+  
     
+  
 }
 
 .form-btn{
@@ -173,7 +174,70 @@ margin-top: 20px;
     justify-content: center;
    margin-top: 90px;
    border-radius: 3px; 
+
+   
 }
+.three-items{
+    width: 1320px;
+    height: 463px;
+    /* border: 1px solid purple; */
+    margin: 0 auto;
+    display: flex;
+   
+    
+}
+
+.first-item{
+    width: 33%;
+    height: 463px;
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+
+}
+.first-item h3{
+    font-size: 48px;
+font-weight: 900;
+}
+.first-item p{
+    font-size: 20px;
+font-weight: 400;
+}
+.second-item{
+    width: 33%;
+    height: 463px;
+    border: 15px solid red; 
+    border-radius: 50% 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.third-item{
+    width: 34%;
+    height: 463px;
+    border: 1px solid #0f0e0e;
+    /* margin: 0 auto; */
+    display: flex;
+    flex-direction: column;
+     align-items: center; 
+    justify-content: center;
+    /* text-align: center; */
+    
+    
+}
+.third-item img{
+    background-color: linear-gradient(175.28deg, rgb(255, 112, 68) 20.141%,rgb(248, 40, 20) 84.872%);
+    margin-top: 100px;
+}
+.third-item p{
+    font-size: 20px;
+font-weight: 400;
+}
+
+
+
 
 
 
